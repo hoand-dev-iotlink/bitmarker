@@ -11,7 +11,7 @@ namespace bitmarker.Controllers
     [ApiController]
     public class CoinController : ControllerBase
     {
-        [HttpGet("GetCoinAll")]
+        [HttpGet("GetCoinAll123")]
         public async Task<IActionResult> GetCoinAll()
         {
             return Ok(true);
